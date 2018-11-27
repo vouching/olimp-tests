@@ -12,7 +12,8 @@ int main()
     int number_of_pressings;
     int position_of_favourite;
     vector <int> open_prog;
-    for(int i=0;i<amount_programmes;i++);
+    int i=0;
+    for(i=0;i<amount_programmes;i++);
     {
         open_prog.push_back(i);
     }  
