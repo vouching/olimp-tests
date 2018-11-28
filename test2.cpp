@@ -39,6 +39,11 @@ int main()
     position_of_favourite--;
 
     pr(open_prog);
-    swapp(open_prog,3);
+    for(i=1;i<=number_of_pressings;i++)
+    {
+        cin>>duration_of_pressing;
+        swapp(open_prog,duration_of_pressing);
+    }
+    
     pr(open_prog);
 }
